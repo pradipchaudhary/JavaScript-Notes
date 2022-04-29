@@ -41,3 +41,12 @@ agreeBtn.onclick = () => {
     alert("Cookies can't be set !");
   }
 };
+
+
+
+$(document).ready(function(){
+  $('.test-popup-link').magnificPopup({
+    type: 'image'
+    // other options
+  });
+});
