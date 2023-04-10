@@ -18,29 +18,33 @@
 
         const str = "Strings are useful for holding data that can be represented in text form. Some of the most-used operations on strings are to check their length, to build and concatenate them using the + and += string operators, checking for the existence or location of substrings with the indexOf() method, or extracting substrings with the substring() method."
         // console.log(str);
-        // console.log(str1);
-        // console.log(str2);
-        // console.log(str3);
-        // console.log(str4);
+        
 
 
         // 1. Length 
         const strLength = str.length;
         console.log("1. Length :- " + strLength);
 
-        // 2. substr -> Sub String 
+        // 2. substr(starting_Value, word_number) -> Sub String 
         const subStr = str.substr(0, 100);
         console.log("Sub String :- " + subStr);
 
-        // 3. charAt -> Character access
+        // 3. charAt() -> Character access
         const characterAccess = str.charAt(8)
         const characterAccess2 = str[5]
-        // console.log(characterAccess);
+        console.log(characterAccess);
         // console.log(characterAccess2);
 
         // 4. indexOf -> Location accessed of string 
         const strIndex = str.indexOf("are")
         console.log(strIndex);
+
+        // 5. replace("which", "what") -> String replace
+        const strReplace = str1.replace('quotes', 'HiHiHi')
+        console.log(strReplace);
+
+        // 6. 
+
 
     </script>
 </body>
