@@ -8,32 +8,48 @@ function waitForThreeSeconds() {
 }
 
 function register(cb) {
-    // console.log("1. Register end.");
-
     setTimeout(function () {
         console.log("1. Register end.");
         cb();
-    }, 4000);
+    }, 2000);
 }
-function sendEmail() {
-    console.log("2. Email end.");
+function sendEmail(callback) {
+    setTimeout(() => {
+        console.log("2. Email end.");
+        callback();
+    }, 1000);
 }
-function login() {
-    console.log("3. Login end.");
+function login(callback) {
+    setTimeout(function () {
+        console.log("3. Login end.");
+        callback();
+    }, 3000);
 }
-function getUserData() {
-    console.log("4. Get user data.");
+function getUserData(callback) {
+    setTimeout(() => {
+        console.log("4. Get user data.");
+        callback();
+    }, 6000);
 }
 function displayUserData() {
-    console.log("5. user data displayed.");
+    setTimeout(() => {
+        console.log("5. user data displayed.");
+    }, 1000);
+}
+
+function otherPrograms() {
+    console.log("Other programs!");
 }
 
 // Functions call with callback
 register(function () {
-    sendEmail();
-    login();
-    getUserData();
-    displayUserData();
+    sendEmail(function () {
+        login(function () {
+            getUserData(function () {
+                displayUserData();
+            });
+        });
+    });
 });
 
 // Other application
