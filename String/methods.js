@@ -58,3 +58,12 @@
 // 24. `valueOf()`: Returns the primitive value of a string object.
 
 // These are the commonly used string methods in JavaScript. Each method serves a specific purpose and allows you to perform various operations on strings.
+
+// 1 length
+const sampleString = "Hi, My name is Pradip Chaudhary.";
+const stringLength = sampleString.length;
+console.log(stringLength, sampleString);
+
+// 2. Replace
+const replaceWords = replace("Hi", "Hello");
+console.log(replaceWords);
