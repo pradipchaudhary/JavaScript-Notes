@@ -41,7 +41,7 @@ function otherPrograms() {
     console.log("Other programs!");
 }
 
-// Functions call with callback
+// Functions call with callback hell
 register(function () {
     sendEmail(function () {
         login(function () {
