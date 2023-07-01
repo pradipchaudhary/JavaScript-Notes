@@ -1,10 +1,5 @@
 # javascript-notes
 
-Javascript note for remember to learn.
-
-1. String
-2. Number
-
 As a software engineer, there are several core fundamental concepts in JavaScript that are important to understand. Here are some key concepts:
 
 1. Variables and Data Types: Understanding how to declare variables using `var`, `let`, and `const`, and being familiar with different data types such as numbers, strings, booleans, arrays, and objects.
