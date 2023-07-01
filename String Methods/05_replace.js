@@ -31,3 +31,13 @@ function replaceSubstring(str, oldSubstr, newSubstr) {
 var originalString = "The quick brown fox jumps over the lazy dog.";
 var newString = replaceSubstring(originalString, "lazy", "active");
 console.log(newString); // Output: "The quick brown fox jumps over the active dog."
+
+// How can you replace all occurrences of a substring within a string without using the inbuilt replace function in JavaScript?
+function replaceAll(str, find, replace) {
+    return str.replace(new RegExp(find, "g"), replace);
+}
+
+const originalString = "Hello world, hello universe!";
+const newString = replaceAll(originalString, "hello", "hi");
+
+console.log(newString); // Output: "Hi world, hi universe!"
