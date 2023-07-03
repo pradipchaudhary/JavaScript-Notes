@@ -24,7 +24,7 @@ function test() {
     console.log(message);
 }
 test();
-console.log(message);
+// console.log(message);
 
 // Global Variables
 function test2() {
