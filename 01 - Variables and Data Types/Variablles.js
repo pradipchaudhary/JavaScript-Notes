@@ -1,4 +1,8 @@
 "strict mode";
+
+// Q: What is the variable in JavaScript?
+// Answer :-  A variable in JavaScript is a container that stores a value, which can be a string, number, boolean, object, or any other data type.
+
 function doSomething() {
     console.log("do something ...");
 }
