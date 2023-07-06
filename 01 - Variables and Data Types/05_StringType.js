@@ -25,6 +25,9 @@ console.log(fullName.length);
 // Converting to a String
 // There are two ways to convert a value into a string.
 // 1. toString()
+// 2. String(value)
+
+// 1. toString()
 console.log("Converting to String: ");
 var age = 30;
 var ageAsString = age.toString();
@@ -37,3 +40,15 @@ console.log(found, typeof found);
 console.log(foundAsString, typeof foundAsString);
 
 // If a value is null or undefined, this method is not available.
+// 2. String()
+var nullVal = null;
+var nullAsString = String(nullVal);
+console.log(nullVal, typeof nullVal);
+console.log(nullAsString, typeof nullAsString);
+
+var myName;
+var myNameAsString = String(myName);
+
+// console
+console.log(myName);
+console.log(myNameAsString, typeof myNameAsString);
