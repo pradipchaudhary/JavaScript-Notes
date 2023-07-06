@@ -36,3 +36,8 @@ console.log(isNaN(true));
  * 3. parseFloat()
  *
  */
+
+console.warn("Floating point value");
+
+var floatNum = 3.125e7;
+console.log(floatNum);
