@@ -13,6 +13,5 @@ console.log(fruits);
 fruits.filter(function (fruit) {
     if ((fruit == "Apple") | (fruit == "Orange")) {
         console.log(fruit);
-        //   console.log("hello");
     }
 });

@@ -6,7 +6,7 @@
 // push(element1, element2, /* …, */ elementN)
 
 const person = ["John", "Younz"];
-console.log(person);
+console.log(person); // Output : "John", "Younz"
 
-person.push("Ram");
-console.log(first);
+person.push("Ram"); // Add element end of the array
+console.log(person); // Output : "John", "Younz", "Ram"

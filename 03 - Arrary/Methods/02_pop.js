@@ -1,6 +1,8 @@
-const num = [2, 3, 4, 5, 6];
-console.log(num);
-console.log(num.length);
-num.pop();
-console.log(num);
-console.log(num.length);
+// This method removes the last element from the end of array and returns that element.
+
+const fruits = ["apple", "orange"];
+console.log(fruits); // Output: "apple", "orange"
+
+fruits.pop(); // Remove the last element from the end of array
+
+console.log(fruits); // Output: "apple"
