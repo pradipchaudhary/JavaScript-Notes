@@ -1,6 +1,6 @@
 const fruits = [];
 fruits.push("banana", "apple", "peach");
-console.log(fruits.length); // 3
+// console.log(fruits.length); // 3
 
 fruits[5] = "orange";
 
@@ -12,8 +12,13 @@ fruits[5] = "orange";
 // Arrary Constructor
 // Note: Array() can be called with or without new. Both create a new Array instance.
 
-let newArray = new Array(2, 4);
+let newArray = new Array(2);
 console.log(newArray);
 
-let newArray1 = Array(2, 4, 6);
-console.log(newArray1);
+// newArray[6] = 8;
+// newArray.push(6);
+
+console.log(newArray.length);
+
+// let newArray1 = Array(2, 4, 6);
+// console.log(newArray1);
