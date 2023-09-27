@@ -23,7 +23,16 @@ const person = {
 };
 // console.log(person);
 // console.log(person.fullName());
-console.log(person.address.country);
-console.log(person.hobbies);
-person.fullName();
-console.log(person.hobbies[0]);
+// console.log(person.address.country);
+// console.log(person.hobbies);
+// person.fullName();
+// console.log(person.hobbies[0]);
+
+const fullName = {
+    name: {
+        fullName: "Pradip Chaudhary",
+    },
+};
+console.log(fullName);
+console.log(Object.keys(fullName));
+console.log(Object.values(fullName));
