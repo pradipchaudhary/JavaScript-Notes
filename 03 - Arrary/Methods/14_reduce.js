@@ -24,3 +24,12 @@ const reduce = expenses.reduce(function (accumulator, currentValue, index) {
 // }
 
 // array.reduce(reducer);
+
+// Sum of values in an object array
+const objects = [{ x: 1 }, { x: 2 }, { x: 3 }];
+
+const sum = objects.reduce(
+    (accumulator, currentValue, index) => accumulator + currentValue.x,
+    0
+);
+console.log(sum);
