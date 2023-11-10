@@ -12,3 +12,7 @@ const numbers = Array(1, 2, 3, 4, 5);
 const joinAll = numbers.join("");
 console.log(joinAll);
 console.log(typeof joinAll);
+
+const numbers1 = [1, 2, 3, 4, 5];
+
+console.log(numbers1.join(" -"));
